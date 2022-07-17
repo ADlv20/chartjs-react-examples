@@ -23,24 +23,17 @@ import { data } from "./Components/DoughnutChart";
 import { data2, options } from "./Components/AreaChart";
 import { optionsBar, dataBar } from "./Components/BrChart";
 
-ChartJS.register(ArcElement, Tooltip, Legend);
 ChartJS.register(
   CategoryScale,
+  ArcElement,
   LinearScale,
   PointElement,
   LineElement,
   Title,
   Tooltip,
   Filler,
-  Legend
-);
-ChartJS.register(
-  CategoryScale,
-  LinearScale,
-  BarElement,
-  Title,
-  Tooltip,
-  Legend
+  Legend,
+  BarElement
 );
 
 function App() {
