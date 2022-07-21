@@ -15,22 +15,30 @@
     height: 100%;
 }
 
+.twittercard-div-holder{
+    width: var(--width);
+    height: var(--height);
+}
+
 .twittercard-div{
     margin-left: 30px;
-    border: solid 1px;
+    margin-bottom: 20px;
+    border: solid 0.1rem;
     height: var(--height);
     width: 50%;
     border-radius: 1rem;
     border-style: outset;
-    border-color: #888888;
+
 }
 
 .infoplaceholder{
+    width: var(--width);
+    height: var(--height);
     margin-bottom: 20px;
     margin-left: 1rem;
 }
 
-.tweet-textt{
+.tweet-text{
     margin-left: 1rem;
     margin-bottom: 1rem;
     margin-right: 1rem;
