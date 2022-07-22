@@ -78,7 +78,7 @@ const Twitter = () => {
   });
   return (
     <div className="twitter-main">
-      <TwitterCard tweetData={tweetData} />
+      {/* <TwitterCard tweetData={tweetData} /> */}
     </div>
   );
 };
