@@ -76,9 +76,11 @@ function App() {
     trans_src: "",
     trans_dest: "",
   });
+
+  const link = "https://twitter.com/NDRFHQ/status/1546010003659599874";
   return (
     <div className="App">
-      <TwitterChakra tweetData={tweetData} />
+      <TwitterChakra tweetData={tweetData} tLink={ link} />
     </div>
   );
 }

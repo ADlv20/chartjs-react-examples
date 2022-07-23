@@ -4,12 +4,13 @@ import { TwitterEmbed } from "react-social-media-embed";
 
 const TwitterChakra = (props) => {
   const tweetData = props.tweetData;
+  const link = props.tLink;
   return (
     <Flex mt={2} ml={2}>
-      <TwitterEmbed
-        url="https://twitter.com/NDRFHQ/status/1546010003659599874"
+       <TwitterEmbed
+        url={link}
         width={400}
-      />
+      /> 
       <Box>
         <Box
           border={"2px"}
