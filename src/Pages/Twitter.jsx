@@ -76,11 +76,6 @@ const Twitter = () => {
     trans_src: "",
     trans_dest: "",
   });
-  return (
-    <div className="twitter-main">
-      {/* <TwitterCard tweetData={tweetData} /> */}
-    </div>
-  );
 };
 
 export default Twitter;
