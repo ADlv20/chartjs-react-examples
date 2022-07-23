@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import TwitterChakra from "./Components/TwitterChakra";
+import TwitterChakra from "./Pages/TwitterChakra";
 import "./index.css";
 
 function App() {
