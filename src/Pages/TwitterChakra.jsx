@@ -20,7 +20,7 @@ const TwitterChakra = (props) => {
           ml={"1rem"}
           mb={"1rem"}
         >
-          <Text fontSize={"2xl"}>Tweet Info</Text>
+          <Text fontSize={"2xl"} m="0.3rem" >Tweet Info</Text>
           <Divider />
           <Text fontSize={"xl"} ml='1rem' >
             Tweet id: {tweetData.id}
@@ -40,7 +40,7 @@ const TwitterChakra = (props) => {
           ml={"1rem"}
           mb={"1rem"}
         >
-          <Text fontSize={"2xl"}>Tweet 
+          <Text fontSize={"2xl"} m="0.3rem" >Tweet 
             <Icon color={"#1DA1F2"}>
               <path
                 fill="currentColor"
@@ -48,7 +48,7 @@ const TwitterChakra = (props) => {
           </Icon>
           </Text>
           <Divider />
-          <Text fontSize={"xl"}>{tweetData.tweet}</Text>
+          <Text fontSize={"xl"} m="0.3rem" >{tweetData.tweet}</Text>
         </Box>
         <Box
           border={"2px"}
@@ -58,9 +58,10 @@ const TwitterChakra = (props) => {
           ml={"1rem"}
           mb={"1rem"}
         >
-          <Text fontSize={"2xl"}>Tweet Actions</Text>
+          <Text fontSize={"2xl"} m="0.3rem" >Tweet Actions</Text>
           <Divider />
-          <Text fontSize={"xl"}>
+          <Box m="0.3rem">
+          <Text fontSize={"xl"} >
             Likes: {tweetData.likes_count} <Icon color='red.500'>
               <path
                 fill="currentColor"
@@ -74,6 +75,7 @@ const TwitterChakra = (props) => {
                 d="M12 1c-6.338 0-12 4.226-12 10.007 0 2.05.738 4.063 2.047 5.625.055 1.83-1.023 4.456-1.993 6.368 2.602-.47 6.301-1.508 7.978-2.536 9.236 2.247 15.968-3.405 15.968-9.457 0-5.812-5.701-10.007-12-10.007zm-5 14v-4h-2l3-4 3 4h-2v2h2.953l1.594 2h-6.547zm9 0l-3-4h2v-2h-2.922l-1.594-2h6.516v4h2l-3 4z" />
             </Icon>
           </Text>
+          </Box>
         </Box>
       </Box>
     </Flex>
